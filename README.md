@@ -27,10 +27,14 @@ El programa no solo calcula el coste numérico óptimo, sino que genera una visu
 3.  **Salidas del programa:**
 
     * **Visualización Gráfica:** Se abrirá una ventana emergente mostrando el grafo del MST con los nodos conectados y sus costes.
+       *<img width="1220" height="1019" alt="image" src="https://github.com/user-attachments/assets/91ef9ed9-7235-4f7f-93c8-79e10d77d9e3" />
+    
     * **Archivo** `output_print.txt`: Reporte final que incluye:
         * Listado detallado de aristas seleccionadas por Prim.
         * Listado detallado de aristas seleccionadas por Kruskal.
         * Coste total del impacto mínimo calculado por ambos métodos.
+        * ![Sample_output](https://github.com/user-attachments/assets/9f840a7d-839e-4774-96f2-b59901cc85cb)
+
 
 ## ⚠️ Estructura del Dataset
 
@@ -64,4 +68,5 @@ Se basa en el **ordenamiento** de todas las aristas y el uso de una estructura d
   Dado que $\log E$ es proporcional a $\log V$, a menudo se simplifica también como $O(E \log V)$. Es óptimo para grafos dispersos.
 
 ### 3. Conclusión
+
 Ambos algoritmos garantizan encontrar el MST óptimo con una eficiencia logarítmica, lo cual es escalable para redes de gran tamaño frente a soluciones de fuerza bruta que tendrían complejidad exponencial.
